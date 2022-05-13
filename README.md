@@ -10,6 +10,14 @@ Start the Docker container:
 
     docker compose up -d
 
+View in browser:
+    
+    http://localhost:8081
+    
+Enter the container:
+
+    docker exec -it myproject sh
+
 ## Configuration
 Change REPOSITORY_DOMAIN & REPOSITORY_URL in Dockerfile for your project.<br>
 Don't forget to change document root of the project in config/nginx.conf<br>

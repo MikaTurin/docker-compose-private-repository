@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   foo:
-    container_name: erp-testdata
+    container_name: myproject
     build:
       context: .
       ssh:
