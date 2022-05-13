@@ -12,6 +12,9 @@ Start the Docker container:
 
 ## Configuration
 Change REPOSITORY_DOMAIN & REPOSITORY_URL in Dockerfile for your project.
+
 Don't forget to change document root of the project in config/nginx.conf
+
 PHP8 also can be installed, change apk`s for php8 and uncomment symlink command.
+
 Project can be copied from src directory too.
