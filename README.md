@@ -1,5 +1,5 @@
-# Docker PHP-FPM 7.0 & Nginx 1.20 on Alpine Linux
-Example PHP-FPM 7.0 & Nginx 1.20 container image for Docker, built on [Alpine Linux](https://www.alpinelinux.org/).
+# Docker PHP-FPM & Nginx on Alpine Linux
+Example PHP-FPM & Nginx container image for Docker, built on [Alpine Linux](https://www.alpinelinux.org/).
 
 ## Goal of this project
 The goal of this container image is to provide an example for running Nginx and PHP-FPM in a container with downloaded
