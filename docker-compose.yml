@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  foo:
+    container_name: erp-testdata
+    build:
+      context: .
+      ssh:
+        - default
+    ports:
+      - "8081:80"
